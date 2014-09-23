@@ -65,33 +65,34 @@
                         </xsl:attribute>
 
                         <xsl:for-each select="current-group()">
+                            <xsl:if test="not(@supp) or @supp!='true'">
+                                <xsl:element name="violations:violation">
+                                    <xsl:attribute name="line">
+                                        <xsl:value-of select="@ln"/>
+                                    </xsl:attribute>
 
-                            <xsl:element name="violations:violation">
-                                <xsl:attribute name="line">
-                                    <xsl:value-of select="@ln"/>
-                                </xsl:attribute>
+                                    <xsl:attribute name="message">
+                                        <xsl:value-of select="@msg"/>
+                                    </xsl:attribute>
 
-                                <xsl:attribute name="message">
-                                    <xsl:value-of select="@msg"/>
-                                </xsl:attribute>
+                                    <xsl:attribute name="key">
+                                        <xsl:value-of select="@rule"/>
+                                    </xsl:attribute>
 
-                                <xsl:attribute name="key">
-                                    <xsl:value-of select="@rule"/>
-                                </xsl:attribute>
-
-                                <xsl:attribute name="severity">
-                                    <!-- Les conditions ci-dessous peuvent ├óΓÇ¥┼ô├é┬¼tre modifi├óΓÇ¥┼ô├ó┼Æ┬Ées pour trier les niveaux info, warning et error qui d├óΓÇ¥┼ô├ó┼Æ┬Épendent du choix de l'utilisateur-->
-                                    <xsl:if test="(@sev=0)">
-                                        <xsl:text>error</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="(@sev=1)or(@sev=2)or((@sev=3)and(@urgent))">
-                                        <xsl:text>warning</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="(@sev>3)or((@sev=3)and(not (@urgent)))">
-                                        <xsl:text>info</xsl:text>
-                                    </xsl:if>
-                                </xsl:attribute>
-                            </xsl:element>
+                                    <xsl:attribute name="severity">
+                                        <!-- Les conditions ci-dessous peuvent ├óΓÇ¥┼ô├é┬¼tre modifi├óΓÇ¥┼ô├ó┼Æ┬Ées pour trier les niveaux info, warning et error qui d├óΓÇ¥┼ô├ó┼Æ┬Épendent du choix de l'utilisateur-->
+                                        <xsl:if test="(@sev=0)">
+                                            <xsl:text>error</xsl:text>
+                                        </xsl:if>
+                                        <xsl:if test="(@sev=1)or(@sev=2)or((@sev=3)and(@urgent))">
+                                            <xsl:text>warning</xsl:text>
+                                        </xsl:if>
+                                        <xsl:if test="(@sev>3)or((@sev=3)and(not (@urgent)))">
+                                            <xsl:text>info</xsl:text>
+                                        </xsl:if>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:element>
 
@@ -128,34 +129,34 @@
                             <xsl:variable name="l_urgent" select="@urgent"/>
 
                             <xsl:for-each select=".//ElDesc">
+                                <xsl:if test="not(@supp) or @supp!='true'">
+                                    <xsl:element name="violations:violation">
+                                        <xsl:attribute name="line">
+                                            <xsl:value-of select="@ln"/>
+                                        </xsl:attribute>
 
-                                <xsl:element name="violations:violation">
-                                    <xsl:attribute name="line">
-                                        <xsl:value-of select="@ln"/>
-                                    </xsl:attribute>
+                                        <xsl:attribute name="message">
+                                            <xsl:value-of select="$l_msg"/>
+                                        </xsl:attribute>
 
-                                    <xsl:attribute name="message">
-                                        <xsl:value-of select="$l_msg"/>
-                                    </xsl:attribute>
+                                        <xsl:attribute name="key">
+                                            <xsl:value-of select="$l_rule"/>
+                                        </xsl:attribute>
 
-                                    <xsl:attribute name="key">
-                                        <xsl:value-of select="$l_rule"/>
-                                    </xsl:attribute>
-
-                                    <xsl:attribute name="severity">
-                                        <!-- Les conditions ci-dessous peuvent ├óΓÇ¥┼ô├é┬¼tre modifi├óΓÇ¥┼ô├ó┼Æ┬Ées pour trier les niveaux info, warning et error qui d├óΓÇ¥┼ô├ó┼Æ┬Épendent du choix de l'utilisateur-->
-                                        <xsl:if test="($l_sev=0)">
-                                            <xsl:text>error</xsl:text>
-                                        </xsl:if>
-                                        <xsl:if test="($l_sev=1)or($l_sev=2)or(($l_sev=3)and($l_urgent))">
-                                            <xsl:text>warning</xsl:text>
-                                        </xsl:if>
-                                        <xsl:if test="($l_sev>3)or(($l_sev=3)and(not ($l_urgent)))">
-                                            <xsl:text>info</xsl:text>
-                                        </xsl:if>
-                                    </xsl:attribute>
-                                </xsl:element>
-
+                                        <xsl:attribute name="severity">
+                                            <!-- Les conditions ci-dessous peuvent ├óΓÇ¥┼ô├é┬¼tre modifi├óΓÇ¥┼ô├ó┼Æ┬Ées pour trier les niveaux info, warning et error qui d├óΓÇ¥┼ô├ó┼Æ┬Épendent du choix de l'utilisateur-->
+                                            <xsl:if test="($l_sev=0)">
+                                                <xsl:text>error</xsl:text>
+                                            </xsl:if>
+                                            <xsl:if test="($l_sev=1)or($l_sev=2)or(($l_sev=3)and($l_urgent))">
+                                                <xsl:text>warning</xsl:text>
+                                            </xsl:if>
+                                            <xsl:if test="($l_sev>3)or(($l_sev=3)and(not ($l_urgent)))">
+                                                <xsl:text>info</xsl:text>
+                                            </xsl:if>
+                                        </xsl:attribute>
+                                    </xsl:element>
+                                </xsl:if>
                             </xsl:for-each>
 
                         </xsl:for-each>
@@ -187,33 +188,34 @@
                         </xsl:attribute>
 
                         <xsl:for-each select="current-group()">
+                            <xsl:if test="not(@supp) or @supp!='true'">
+                                <xsl:element name="violations:violation">
+                                    <xsl:attribute name="line">
+                                        <xsl:value-of select="@ln"/>
+                                    </xsl:attribute>
 
-                            <xsl:element name="violations:violation">
-                                <xsl:attribute name="line">
-                                    <xsl:value-of select="@ln"/>
-                                </xsl:attribute>
+                                    <xsl:attribute name="message">
+                                        <xsl:value-of select="@msg"/>
+                                    </xsl:attribute>
 
-                                <xsl:attribute name="message">
-                                    <xsl:value-of select="@msg"/>
-                                </xsl:attribute>
+                                    <xsl:attribute name="key">
+                                        <xsl:value-of select="@rule"/>
+                                    </xsl:attribute>
 
-                                <xsl:attribute name="key">
-                                    <xsl:value-of select="@rule"/>
-                                </xsl:attribute>
-
-                                <xsl:attribute name="severity">
-                                    <!-- Les conditions ci-dessous peuvent ├óΓÇ¥┼ô├é┬¼tre modifi├óΓÇ¥┼ô├ó┼Æ┬Ées pour trier les niveaux info, warning et error qui d├óΓÇ¥┼ô├ó┼Æ┬Épendent du choix de l'utilisateur-->
-                                    <xsl:if test="(@sev=0)">
-                                        <xsl:text>error</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="(@sev=1)or(@sev=2)or((@sev=3)and(@urgent))">
-                                        <xsl:text>warning</xsl:text>
-                                    </xsl:if>
-                                    <xsl:if test="(@sev>3)or((@sev=3)and(not (@urgent)))">
-                                        <xsl:text>info</xsl:text>
-                                    </xsl:if>
-                                </xsl:attribute>
-                            </xsl:element>
+                                    <xsl:attribute name="severity">
+                                        <!-- Les conditions ci-dessous peuvent ├óΓÇ¥┼ô├é┬¼tre modifi├óΓÇ¥┼ô├ó┼Æ┬Ées pour trier les niveaux info, warning et error qui d├óΓÇ¥┼ô├ó┼Æ┬Épendent du choix de l'utilisateur-->
+                                        <xsl:if test="(@sev=0)">
+                                            <xsl:text>error</xsl:text>
+                                        </xsl:if>
+                                        <xsl:if test="(@sev=1)or(@sev=2)or((@sev=3)and(@urgent))">
+                                            <xsl:text>warning</xsl:text>
+                                        </xsl:if>
+                                        <xsl:if test="(@sev>3)or((@sev=3)and(not (@urgent)))">
+                                            <xsl:text>info</xsl:text>
+                                        </xsl:if>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:element>
 
