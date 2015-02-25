@@ -584,13 +584,13 @@
                                         <xsl:value-of select="number(translate(metrics/metric[@id='M13'],',','.'))"/>
                                     </xsl:attribute>
                                 </xsl:element>
-                            </xsl:element>
-                            <xsl:element name="size:measure">
-                                <xsl:attribute name="key">accessors</xsl:attribute>
-                                <xsl:attribute name="value">
-                                    <xsl:value-of
-                                            select="number(translate(/sourcemonitor_metrics/addings/_files/file[@name=$_file_name]/accessors,',','.'))"/>
-                                </xsl:attribute>
+                                <xsl:element name="size:measure">
+                                    <xsl:attribute name="key">accessors</xsl:attribute>
+                                    <xsl:attribute name="value">
+                                        <xsl:value-of
+                                                select="number(translate(/sourcemonitor_metrics/addings/_files/file[@name=$_file_name]/accessors,',','.'))"/>
+                                    </xsl:attribute>
+                                </xsl:element>
                             </xsl:element>
                         </xsl:for-each>
                         <xsl:for-each select="//checkpoints/checkpoint/metrics">
