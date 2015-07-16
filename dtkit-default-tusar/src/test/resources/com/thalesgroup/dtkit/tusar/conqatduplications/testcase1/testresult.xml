@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cloneReport xmlns="http://conqat.cs.tum.edu/ns/clonereport" systemdate="2015.05.28 17:49:58:104-0400">
+  <sourceFile id="0" path="ZCSW/main.c" location="D:\DATA\ThalesControl\ZC\zc_main\main.c" length="942" fingerprint="333226271EB6CCF3DB8F9E0A3B84CF50" />
+  <sourceFile id="1" path="ZCSW/main_Doc.h" location="D:\DATA\ThalesControl\ZC\zc_main\main_Doc.h" length="82" fingerprint="6A30DF4DF3C368294F21435436382702" />
+  <sourceFile id="2" path="ZCSW/version.c" location="D:\DATA\ThalesControl\ZC\zc_main\version.c" length="86" fingerprint="3E424617F9294747956481B765EAEEB4" />
+  <sourceFile id="3" path="ZCSW/versionCopy.c" location="D:\DATA\ThalesControl\ZC\zc_main\versionCopy.c" length="86" fingerprint="3E424617F9294747956481B765EAEEB4" />
+  <cloneClass normalizedLength="11" id="0" fingerprint="34953B9EBABAA0860529625505B45E20">
+    <clone id="1" fingerprint="34953B9EBABAA0860529625505B45E20" startLine="20" endLine="83" startOffset="882" endOffset="2750" sourceFileId="2" startUnitIndexInFile="0" lengthInUnits="11" deltaInUnits="0" gaps="" />
+    <clone id="2" fingerprint="34953B9EBABAA0860529625505B45E20" startLine="20" endLine="83" startOffset="882" endOffset="2750" sourceFileId="3" startUnitIndexInFile="0" lengthInUnits="11" deltaInUnits="0" gaps="" />
+  </cloneClass>
+</cloneReport>

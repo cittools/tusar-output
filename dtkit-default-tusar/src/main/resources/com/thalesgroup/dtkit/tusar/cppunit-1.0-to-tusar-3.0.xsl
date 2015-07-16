@@ -157,7 +157,7 @@
                         <xsl:value-of select="normalize-space(Message)"/>
                     </xsl:element>
 
-                    <xsl:element name="system-err">
+                    <xsl:element name="t:system-err">
                         <xsl:text>&#13;</xsl:text>
                         <xsl:text>[File] - </xsl:text><xsl:value-of select="Location/File"/>
                         <xsl:text>&#13;</xsl:text>

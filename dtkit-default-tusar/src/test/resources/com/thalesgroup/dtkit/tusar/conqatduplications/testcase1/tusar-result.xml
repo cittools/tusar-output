@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tusar:tusar xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:m="http://www.thalesgroup.com/tusar/measures/v6"
+             xmlns:d="http://www.thalesgroup.com/tusar/duplications/v1"
+             xmlns:ns="http://conqat.cs.tum.edu/ns/clonereport"
+             xmlns:tusar="http://www.thalesgroup.com/tusar/v8"
+             version="8.0">
+   <tusar:measures toolname="ConQat" version="2014.1">
+      <m:duplications>
+         <d:set lines="63" tokens="0">
+            <d:resource path="ZCSW/version.c" line="20"/>
+            <d:resource path="ZCSW/versionCopy.c" line="20"/>
+         </d:set>
+      </m:duplications>
+   </tusar:measures>
+</tusar:tusar>

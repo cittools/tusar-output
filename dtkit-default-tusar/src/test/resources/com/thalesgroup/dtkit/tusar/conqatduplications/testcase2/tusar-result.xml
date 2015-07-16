@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tusar:tusar xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:m="http://www.thalesgroup.com/tusar/measures/v6"
+             xmlns:d="http://www.thalesgroup.com/tusar/duplications/v1"
+             xmlns:ns="http://conqat.cs.tum.edu/ns/clonereport"
+             xmlns:tusar="http://www.thalesgroup.com/tusar/v8"
+             version="8.0">
+   <tusar:measures toolname="ConQat" version="2014.1">
+      <m:duplications>
+         <d:set lines="26" tokens="0">
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Filter.cs" line="2"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Transform.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="48" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="49" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs"
+                        line="1"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/Biz2DisEODTransformDico.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="38" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/Biz2DisEODTransformBlackList.cs"
+                        line="2"/>
+         </d:set>
+         <d:set lines="35" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs"
+                        line="1"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/Biz2DisEODTransformBlackList.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/Biz2DisEODTransformDico.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/Biz2DisEODTransformEqtParam.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtPrgFile/Biz2DisEODTransformEqtPrgFile.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/Biz2DisEODTransformSysParam.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="20" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="152"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="95"/>
+         </d:set>
+         <d:set lines="30" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/Biz2DisEODTransformActionList.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/Biz2DisEODTransformEqtParam.cs"
+                        line="9"/>
+         </d:set>
+         <d:set lines="23" tokens="0">
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Save.cs" line="1"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Validate.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="38" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtPrgFile/Biz2DisEODTransformEqtPrgFile.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/Biz2DisEODTransformSysParam.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="23" tokens="0">
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Filter.cs" line="2"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Merge.cs" line="1"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Transform.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="17" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="152"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="62"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="95"/>
+         </d:set>
+         <d:set lines="18" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="156"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="85"/>
+         </d:set>
+         <d:set lines="22" tokens="0">
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Filter.cs" line="1"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Load.cs" line="0"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Merge.cs" line="0"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Save.cs" line="0"/>
+         </d:set>
+         <d:set lines="41" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs"
+                        line="1"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/Biz2DisEODTransformBlackList.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/Biz2DisEODTransformDico.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/Biz2DisEODTransformEqtParam.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="64" tokens="0">
+            <d:resource path="XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/DeferredXsdValidationRule.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/ImmediateXsdValidationRule.cs"
+                        line="0"/>
+         </d:set>
+         <d:set lines="28" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/Biz2DisEODTransformActionList.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs"
+                        line="10"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/Biz2DisEODTransformBlackList.cs"
+                        line="12"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/Biz2DisEODTransformDico.cs"
+                        line="9"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/Biz2DisEODTransformEqtParam.cs"
+                        line="9"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="9"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="9"/>
+         </d:set>
+         <d:set lines="17" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="147"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="44"/>
+         </d:set>
+         <d:set lines="14" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="154"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="42"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="64"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="97"/>
+         </d:set>
+         <d:set lines="24" tokens="0">
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Filter.cs" line="1"/>
+            <d:resource path="XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Merge.cs" line="0"/>
+         </d:set>
+         <d:set lines="18" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="143"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="80"/>
+         </d:set>
+         <d:set lines="16" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="42"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="92"/>
+         </d:set>
+         <d:set lines="28" tokens="0">
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs"
+                        line="4"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/Biz2DisEODTransformBlackList.cs"
+                        line="6"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/Biz2DisEODTransformDico.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/Biz2DisEODTransformEqtParam.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtPrgFile/Biz2DisEODTransformEqtPrgFile.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs"
+                        line="0"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/Biz2DisEODTransformSysParam.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs"
+                        line="3"/>
+            <d:resource path="XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs"
+                        line="3"/>
+         </d:set>
+      </m:duplications>
+   </tusar:measures>
+</tusar:tusar>

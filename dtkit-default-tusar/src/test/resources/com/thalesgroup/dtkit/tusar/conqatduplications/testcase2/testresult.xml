@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cloneReport xmlns="http://conqat.cs.tum.edu/ns/clonereport" systemdate="2012.06.06 16:54:52:300+0200">
+  <sourceFile id="0" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/Interfaces/ICustomValidationRule.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\Interfaces\ICustomValidationRule.cs" length="28" fingerprint="7CE9B9E66791E08CB585D7D00BD798DB" />
+  <sourceFile id="1" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/CustomValidationRule.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\ModelViews\CustomValidationRule.cs" length="90" fingerprint="DA7AEACA9AB589CC1BBDA5D9022857EA" />
+  <sourceFile id="2" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/DeferredValidationRule.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\ModelViews\DeferredValidationRule.cs" length="38" fingerprint="37FAB33B01BCF419C61DCACFFD868668" />
+  <sourceFile id="3" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/DeferredXsdValidationRule.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\ModelViews\DeferredXsdValidationRule.cs" length="67" fingerprint="611F4DC3B11C1E925FEB651924551127" />
+  <sourceFile id="4" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/ICustomValidationRuleSelector.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\ModelViews\ICustomValidationRuleSelector.cs" length="14" fingerprint="47C4A6D9A7DEFA974B153DB8E9C7B85D" />
+  <sourceFile id="5" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/ImmediateValidationRule.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\ModelViews\ImmediateValidationRule.cs" length="38" fingerprint="4960885345A6AAF276CB4121835E4C0C" />
+  <sourceFile id="6" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/ModelViews/ImmediateXsdValidationRule.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\ModelViews\ImmediateXsdValidationRule.cs" length="67" fingerprint="E3553F4CD4036360C1B431C68B3F4D0A" />
+  <sourceFile id="7" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/Services/CustomValidationService.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\Services\CustomValidationService.cs" length="461" fingerprint="0CDA25FEF64B88E56C743402A7D96786" />
+  <sourceFile id="8" path="CloneAnalysis/XmlFactory.Core.NET/XMLValidator.Plugin.NET/Services/ICustomValidationService.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XMLValidator.Plugin.NET\Services\ICustomValidationService.cs" length="15" fingerprint="871F61C5C4AF3FD7F69E97A7A1DFF726" />
+  <sourceFile id="9" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/Program.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\Program.cs" length="172" fingerprint="CAB3D49216533A58BBBFB6044BDFE279" />
+  <sourceFile id="10" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Command.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Command.cs" length="224" fingerprint="4B48C99C0A89C07CE4C8C1E7DDD342ED" />
+  <sourceFile id="11" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Filter.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Filter.cs" length="78" fingerprint="4725ABD64A12109426CDF850360CEC6D" />
+  <sourceFile id="12" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Load.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Load.cs" length="114" fingerprint="DE32E033D94BD853CC674A68458B134A" />
+  <sourceFile id="13" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Merge.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Merge.cs" length="537" fingerprint="0EC579806074768A96D89AB5D3E369D2" />
+  <sourceFile id="14" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Save.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Save.cs" length="77" fingerprint="129704A1221B4C06833CB662DDE73E6F" />
+  <sourceFile id="15" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Tests.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Tests.cs" length="208" fingerprint="78516A25C3D7CB9BC0741B203EDA5E88" />
+  <sourceFile id="16" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Transform.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Transform.cs" length="67" fingerprint="75ED12E6394136193D12155E512CDDE6" />
+  <sourceFile id="17" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.Validate.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.Validate.cs" length="126" fingerprint="2A2E929D98724F387877E1C36517499C" />
+  <sourceFile id="18" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.NET/XmlFactory.Engine.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.NET\XmlFactory.Engine.cs" length="548" fingerprint="4B63D94E65882F0E719350644E540124" />
+  <sourceFile id="19" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Helpers/LookupStringByString.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Helpers\LookupStringByString.cs" length="17" fingerprint="4BC6337DA3682C80C33FD52C32F347D9" />
+  <sourceFile id="20" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Helpers/LookupTable.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Helpers\LookupTable.cs" length="69" fingerprint="EEBF0F0961AA5A1FD26E2577788210C6" />
+  <sourceFile id="21" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Helpers/LookupXElementByString.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Helpers\LookupXElementByString.cs" length="12" fingerprint="CB1B6C6C1066F137A5D9FB32BD467404" />
+  <sourceFile id="22" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryCustomPlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryCustomPlugin.cs" length="14" fingerprint="162F2D1379B1C67C8FC5F19FFE9A652C" />
+  <sourceFile id="23" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryEnrichPlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryEnrichPlugin.cs" length="13" fingerprint="D2C1AAB735294FEA7F7E26F3854F4381" />
+  <sourceFile id="24" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryFilterPlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryFilterPlugin.cs" length="13" fingerprint="0C1BF3F561C67685B7DDFC566E79AC94" />
+  <sourceFile id="25" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryLoadPlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryLoadPlugin.cs" length="13" fingerprint="D14DC0276468848ED493454B189506F4" />
+  <sourceFile id="26" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryMergePlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryMergePlugin.cs" length="13" fingerprint="E864B8E1FDBD727DE3A822FC8176E7DE" />
+  <sourceFile id="27" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryPlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryPlugin.cs" length="11" fingerprint="CD32E31264903DDE70B04E48D8B7C3D9" />
+  <sourceFile id="28" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactorySavePlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactorySavePlugin.cs" length="13" fingerprint="DCEE97192213A19B5A77E76AA269ECD6" />
+  <sourceFile id="29" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryTransformPlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryTransformPlugin.cs" length="20" fingerprint="93EA8DFE25A7DF93BB2D0FF5BA55EE11" />
+  <sourceFile id="30" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Interfaces/IXmlFactoryValidatePlugin.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Interfaces\IXmlFactoryValidatePlugin.cs" length="13" fingerprint="5589BADF3B6275528695F927F8284BC6" />
+  <sourceFile id="31" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Services/IoC.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Services\IoC.cs" length="40" fingerprint="47F5EB0F8EB11082FF6A356C9292C530" />
+  <sourceFile id="32" path="CloneAnalysis/XmlFactory.Core.NET/XmlFactory.Plugin.NET/Services/XmlFactoryParameters.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Core.NET\XmlFactory.Plugin.NET\Services\XmlFactoryParameters.cs" length="18" fingerprint="F294D69AA79C0D9F5D2090840040A539" />
+  <sourceFile id="33" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/ActionType.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\ActionType.cs" length="58" fingerprint="7007B2CD6CC39EBE34410E299A9C4E9D" />
+  <sourceFile id="34" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/Biz2DisEODTransformActionList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\Biz2DisEODTransformActionList.cs" length="98" fingerprint="6D4DECA50491E2C7A958D4426506BF9F" />
+  <sourceFile id="35" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NA_ProductSale.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NA_ProductSale.cs" length="80" fingerprint="AB4E883FFCB94715A5BD343DE9AC3731" />
+  <sourceFile id="36" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NE_ProductRefund.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NE_ProductRefund.cs" length="36" fingerprint="82DD753DE1AFDAE92CC1373DD8E73212" />
+  <sourceFile id="37" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NM_TpurseModification.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NM_TpurseModification.cs" length="42" fingerprint="B96E69D1532BB8920C9ACB534C469568" />
+  <sourceFile id="38" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NO_AutopayTPurse.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NO_AutopayTPurse.cs" length="41" fingerprint="32C08266BC2EB680B08700B21A95ACD2" />
+  <sourceFile id="39" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NP_AutorenewProduct.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NP_AutorenewProduct.cs" length="38" fingerprint="A685BD8CB7D411A24A0BF70164B4DA8C" />
+  <sourceFile id="40" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NR_ProductRenew.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NR_ProductRenew.cs" length="47" fingerprint="12F194D23976877DD0A09A76C9B347DE" />
+  <sourceFile id="41" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NS_SessionParameter.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NS_SessionParameter.cs" length="95" fingerprint="CB0DCD8F2F131D71D1F92941EA400EA1" />
+  <sourceFile id="42" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_ActionList/NT_Tpursereload.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_ActionList\NT_Tpursereload.cs" length="37" fingerprint="E11A2FBB68FC42B7600D09CDDBD989A9" />
+  <sourceFile id="43" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/ALE_AgentElement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Agent\ALE_AgentElement.cs" length="51" fingerprint="8002884D71284484CAA353834404D5DF" />
+  <sourceFile id="44" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Agent/Biz2DisEODTransformAgent.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Agent\Biz2DisEODTransformAgent.cs" length="73" fingerprint="7B85E9FCD63565B9094DD5AD53A3D532" />
+  <sourceFile id="45" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/BE_Element.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_BlackList\BE_Element.cs" length="64" fingerprint="7080214A2E4D3A019B5E080446BD0938" />
+  <sourceFile id="46" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/BME_MachineBlacklistElement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_BlackList\BME_MachineBlacklistElement.cs" length="48" fingerprint="B5E173F0C93A1E62D4DA0AD3F892608A" />
+  <sourceFile id="47" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/BRE_RangeCardElement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_BlackList\BRE_RangeCardElement.cs" length="54" fingerprint="689F1AC4AADDFD5CEDCDBE659A542DE1" />
+  <sourceFile id="48" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_BlackList/Biz2DisEODTransformBlackList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_BlackList\Biz2DisEODTransformBlackList.cs" length="87" fingerprint="CC4E21D74D9871B2E6717C63E7DEC54F" />
+  <sourceFile id="49" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/Biz2DisEODTransformDico.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Dico\Biz2DisEODTransformDico.cs" length="78" fingerprint="A1115EA313E1951A7ED4836BA57D4C03" />
+  <sourceFile id="50" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Dico/DW_Wording.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Dico\DW_Wording.cs" length="201" fingerprint="2F86E77D2BEDBC6DA1D83193C2168CED" />
+  <sourceFile id="51" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/Biz2DisEODTransformEqtParam.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\Biz2DisEODTransformEqtParam.cs" length="109" fingerprint="CE9691B2DC18C8478FD17525E6BBFBF9" />
+  <sourceFile id="52" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EADI_AssociationDomainImage.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EADI_AssociationDomainImage.cs" length="21" fingerprint="D1DD28EA291EB5FEF0A78A531FC37F29" />
+  <sourceFile id="53" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EEA_AddvalueData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EEA_AddvalueData.cs" length="51" fingerprint="BCD34E8D1CAFB1968E719792BCF7CF40" />
+  <sourceFile id="54" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EED_MediaManagementData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EED_MediaManagementData.cs" length="51" fingerprint="1CC6432507A7E7CA981DD180A6F330FE" />
+  <sourceFile id="55" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EEG_GeneralData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EEG_GeneralData.cs" length="128" fingerprint="4A2C8F4755F58A5251E2DE9364CA9A9B" />
+  <sourceFile id="56" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EEM_MaintenanceAndExploitationData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EEM_MaintenanceAndExploitationData.cs" length="92" fingerprint="3E875B8F041BD212525077356A062414" />
+  <sourceFile id="57" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EEP_PaymentData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EEP_PaymentData.cs" length="76" fingerprint="FEE80FF1688515BA9888867CEBCF988D" />
+  <sourceFile id="58" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EVSL_ValidatorsoundLevel.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EVSL_ValidatorsoundLevel.cs" length="21" fingerprint="5AEBC342C0A3885EEC8A0E870FBF7816" />
+  <sourceFile id="59" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EWS_ServerCommunicationData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EWS_ServerCommunicationData.cs" length="56" fingerprint="8E51F30F862CFD71D2AB30B006B1BA37" />
+  <sourceFile id="60" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtParam/EWT_TimerData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtParam\EWT_TimerData.cs" length="62" fingerprint="ED034D50D6D44E63E433A15DF8BD281B" />
+  <sourceFile id="61" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtPrgFile/Biz2DisEODTransformEqtPrgFile.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtPrgFile\Biz2DisEODTransformEqtPrgFile.cs" length="73" fingerprint="4BB9EC36EDE675D1A76EB1317BD4A7A9" />
+  <sourceFile id="62" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_EqtPrgFile/EPF_EqtProgramFileElement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_EqtPrgFile\EPF_EqtProgramFileElement.cs" length="95" fingerprint="8B4B8995C3629DDD6167B916B652C01D" />
+  <sourceFile id="63" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/Biz2DisEODTransformFare.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\Biz2DisEODTransformFare.cs" length="258" fingerprint="59DAF6D0B3D31FCE6EE45A4E4437B92C" />
+  <sourceFile id="64" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFAD_AcceptedDuration.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFAD_AcceptedDuration.cs" length="21" fingerprint="B627E0B83DE64F0C129425942A31C381" />
+  <sourceFile id="65" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFAM_FareCalculationMatrix.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFAM_FareCalculationMatrix.cs" length="312" fingerprint="B77A74E7A6AD97C064F2D328BC55D637" />
+  <sourceFile id="66" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFCS_FaresetConcessionStructure.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFCS_FaresetConcessionStructure.cs" length="21" fingerprint="DD98119E4B5D2B22020AED0A62218F36" />
+  <sourceFile id="67" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFCT_ConcessionFareType.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFCT_ConcessionFareType.cs" length="58" fingerprint="3939965EF0035ED1354511DF0141A7ED" />
+  <sourceFile id="68" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFDM_DomainMatrix.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFDM_DomainMatrix.cs" length="21" fingerprint="E1B6B7CDB30CBE9C7EE47B86BFCEC783" />
+  <sourceFile id="69" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFDS_FaresetFareStructure.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFDS_FaresetFareStructure.cs" length="21" fingerprint="EFCD2A763348822453BA57249915D119" />
+  <sourceFile id="70" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFFM_FareModifier.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFFM_FareModifier.cs" length="21" fingerprint="0734CDAF5AE135FEC02C5B5DEEAF192A" />
+  <sourceFile id="71" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFFSL_FareSetList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFFSL_FareSetList.cs" length="21" fingerprint="CF6641F33E202CBB6684F2FD70991BDC" />
+  <sourceFile id="72" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFFS_FareSet.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFFS_FareSet.cs" length="21" fingerprint="4ADAF108FE6C583106772AB9EE1196D4" />
+  <sourceFile id="73" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFGP_GroupParameters.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFGP_GroupParameters.cs" length="21" fingerprint="A9ECA607BB9247411FC6F4296186F95A" />
+  <sourceFile id="74" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFIF_InitialFee.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFIF_InitialFee.cs" length="21" fingerprint="2E490A159D40CF73DCD6A6226CB76067" />
+  <sourceFile id="75" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFRS_FareStructure.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFRS_FareStructure.cs" length="21" fingerprint="BEE8B7BE4CFFC1AB0E4F71C0E1EA655B" />
+  <sourceFile id="76" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFST_ServiceType.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFST_ServiceType.cs" length="21" fingerprint="920707F9217E86E26387EDC0671132D3" />
+  <sourceFile id="77" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFTAZD_ZoneDistance.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFTAZD_ZoneDistance.cs" length="21" fingerprint="0311F66EECC79331A70F7F47445B2881" />
+  <sourceFile id="78" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFZGM_ZoneGroupToZoneGroupMatrix.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFZGM_ZoneGroupToZoneGroupMatrix.cs" length="21" fingerprint="F39A0F6AFC222B7FFECC6987C2092F76" />
+  <sourceFile id="79" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CFZM_ZoneToZoneMatrix.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CFZM_ZoneToZoneMatrix.cs" length="191" fingerprint="C2D96B5960327366591FC2162A19E128" />
+  <sourceFile id="80" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGCP_CardPrice.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGCP_CardPrice.cs" length="21" fingerprint="2AB13E5CC7ED5D67F92316EC9A96CC47" />
+  <sourceFile id="81" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGLT_TpurseLocalManagement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGLT_TpurseLocalManagement.cs" length="21" fingerprint="2F565E587E35B9F0158712194D19E5BB" />
+  <sourceFile id="82" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGM_MissingCheckoutManagement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGM_MissingCheckoutManagement.cs" length="21" fingerprint="DCEBD84BC8DC4592021F1DFD542E62E0" />
+  <sourceFile id="83" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGOF_OperationFee.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGOF_OperationFee.cs" length="21" fingerprint="2FC8D32301D292CE5146D485B76DCC78" />
+  <sourceFile id="84" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGPL_ProfileList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGPL_ProfileList.cs" length="50" fingerprint="2DC405E6B7D4D9C991417A228F20DA18" />
+  <sourceFile id="85" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGP_Price.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGP_Price.cs" length="78" fingerprint="E77CF6F46693868AC5B0D4E7EA2527DD" />
+  <sourceFile id="86" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/CGT_TpurseManagement.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\CGT_TpurseManagement.cs" length="122" fingerprint="87AB799D34B782C88793C1AAA3AFA090" />
+  <sourceFile id="87" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/PDA_AttributesList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\PDA_AttributesList.cs" length="1126" fingerprint="ED1B6C5BB6C50135422B8F2051E05C21" />
+  <sourceFile id="88" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/PDF_Family.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\PDF_Family.cs" length="31" fingerprint="65D563A490569FE8F0B7E3160F12F944" />
+  <sourceFile id="89" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/PDSF_Subfamily.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\PDSF_Subfamily.cs" length="37" fingerprint="1E4D505EFDCB77C31B4D1FDCCB9F1D64" />
+  <sourceFile id="90" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/PGDB_DiscountBasis.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\PGDB_DiscountBasis.cs" length="21" fingerprint="555C8BBEE1DEA0596C5AD11456983A80" />
+  <sourceFile id="91" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/PGPP_Prepayment.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\PGPP_Prepayment.cs" length="21" fingerprint="99445C519DECDAE298DF3648A3E94AE1" />
+  <sourceFile id="92" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/PGP_Price.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\PGP_Price.cs" length="62" fingerprint="8BA5D9DD12EC908315864B31F9A5123D" />
+  <sourceFile id="93" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/RGD_GeneralMediaParameters.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\RGD_GeneralMediaParameters.cs" length="93" fingerprint="812059825C9F5AC7883A32041544718B" />
+  <sourceFile id="94" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Fare/SKE_ShortcutKeys.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Fare\SKE_ShortcutKeys.cs" length="21" fingerprint="62E808BDEB63C58AB90C3CA7A72F1279" />
+  <sourceFile id="95" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/Biz2DisEODTransformSysParam.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\Biz2DisEODTransformSysParam.cs" length="108" fingerprint="25828DD021BCD8FB382D9693E07810F7" />
+  <sourceFile id="96" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OEP_PaymentData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OEP_PaymentData.cs" length="35" fingerprint="1084D36B34E7FA23976361A2785262F8" />
+  <sourceFile id="97" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWA_AlarmData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWA_AlarmData.cs" length="31" fingerprint="8847E797B5A9891941876C4BA75CFF90" />
+  <sourceFile id="98" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWCU_Currencyunit.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWCU_Currencyunit.cs" length="21" fingerprint="5FCEC950B48832B3C43460DD86FAAD3F" />
+  <sourceFile id="99" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWER_Exchangerate.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWER_Exchangerate.cs" length="21" fingerprint="97B694D28D93B38DD9AF84A00D92E7C9" />
+  <sourceFile id="100" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWG_GeneralData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWG_GeneralData.cs" length="42" fingerprint="7B9CFCB267EB58DDDD0353B066E424BB" />
+  <sourceFile id="101" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWL_Language.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWL_Language.cs" length="21" fingerprint="77460BE34DDD8897070BD7D351252E93" />
+  <sourceFile id="102" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWMG_Migration.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWMG_Migration.cs" length="31" fingerprint="937106322C3B59F7E5E59C457C0C2772" />
+  <sourceFile id="103" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWRR_RoundingRules.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWRR_RoundingRules.cs" length="21" fingerprint="F5C7CA4BFE07BC50CA21B1FE0F43C59A" />
+  <sourceFile id="104" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_SysParam/OWT_TimerData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_SysParam\OWT_TimerData.cs" length="41" fingerprint="8CC2FC01C630AD3111D48CB5719286C2" />
+  <sourceFile id="105" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/Biz2DisEODTransformTime.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Time\Biz2DisEODTransformTime.cs" length="96" fingerprint="54522B3EFDD5B2197ED81469B20F6417" />
+  <sourceFile id="106" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/IDAT_DaytypeList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Time\IDAT_DaytypeList.cs" length="53" fingerprint="C85675D8FC534970E38946BEDB4F263A" />
+  <sourceFile id="107" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/IDC_CalendarList.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Time\IDC_CalendarList.cs" length="57" fingerprint="B407C89CE6E35BD8102823C8E5307BFD" />
+  <sourceFile id="108" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/IDGDT_GroupOfDayTypes.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Time\IDGDT_GroupOfDayTypes.cs" length="56" fingerprint="23CB3721BAF69DE824E24B45862720C6" />
+  <sourceFile id="109" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/IDG_GeneralData.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Time\IDG_GeneralData.cs" length="65" fingerprint="0EB0B9E973CBEBFDE9077ABDF9B22386" />
+  <sourceFile id="110" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Time/IDTT_Timetable.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Time\IDTT_Timetable.cs" length="117" fingerprint="94E4FCDF1A75574FA139EEA01E0A68B0" />
+  <sourceFile id="111" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/Biz2DisEODTransformTopo.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\Biz2DisEODTransformTopo.cs" length="161" fingerprint="5456284F5E84306640A1A1DCB9781DA7" />
+  <sourceFile id="112" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/GAOG_OperatorsGroup.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\GAOG_OperatorsGroup.cs" length="60" fingerprint="3913C1BD3DCB32853830EA6A59FDB768" />
+  <sourceFile id="113" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/GAO_Operators.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\GAO_Operators.cs" length="50" fingerprint="22FD070B218D0DB60AA909C0CDBD9714" />
+  <sourceFile id="114" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/GATMG_TransportModeGroup.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\GATMG_TransportModeGroup.cs" length="60" fingerprint="2C27B68EF16AB2A85CC274F0FECAAF74" />
+  <sourceFile id="115" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/GATM_TransportMode.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\GATM_TransportMode.cs" length="51" fingerprint="CC316D35028749965B1427FCF2EDEE5E" />
+  <sourceFile id="116" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/GATOA_TransportOperatorAssociation.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\GATOA_TransportOperatorAssociation.cs" length="62" fingerprint="251FDE1A37BE07D4D2708C0CF6234F18" />
+  <sourceFile id="117" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TAZ_ZoneToZoneMatrix.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TAZ_ZoneToZoneMatrix.cs" length="161" fingerprint="D82AE84467E6A9FCE9A44938B8AB6EA6" />
+  <sourceFile id="118" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TDLG_LineGroup.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TDLG_LineGroup.cs" length="64" fingerprint="279C0A8838CD86B8A3C7DAB00A31C8FE" />
+  <sourceFile id="119" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TDL_Line.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TDL_Line.cs" length="23" fingerprint="C2A318908145060160C499E7E8BCBC65" />
+  <sourceFile id="120" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TDSP_ServicePattern.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TDSP_ServicePattern.cs" length="21" fingerprint="B2D9617976AD3C5BB4287D887A40DB7B" />
+  <sourceFile id="121" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TDT_Trips.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TDT_Trips.cs" length="22" fingerprint="47EACF096CE23DCEA1C10523D70FF303" />
+  <sourceFile id="122" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TPDG_DomainGroup.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TPDG_DomainGroup.cs" length="59" fingerprint="508FEC5BF48E72440D12CDBE3CA06796" />
+  <sourceFile id="123" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TPD_Domain.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TPD_Domain.cs" length="134" fingerprint="5C143833D1DD501CF6B3FDE58ED9D13C" />
+  <sourceFile id="124" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TPFP_FarePoint.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TPFP_FarePoint.cs" length="72" fingerprint="0A1BE6AD5DF04C160185D3DB320B099C" />
+  <sourceFile id="125" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TPSP_StopPoint.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TPSP_StopPoint.cs" length="175" fingerprint="B62A2215B375A21370933868C28508A4" />
+  <sourceFile id="126" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TPZG_ZoneGroup.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TPZG_ZoneGroup.cs" length="68" fingerprint="CDAB376007C8F656BDAB2C7103FE563E" />
+  <sourceFile id="127" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/EOD_Topo/TPZ_Zone.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\EOD_Topo\TPZ_Zone.cs" length="127" fingerprint="179F64DA58E5733E92F5736BD0DD85B0" />
+  <sourceFile id="128" path="CloneAnalysis/XmlFactory.Plugin.Biz2DisEODTransform/XMLTools.cs" location="M:\hdu_BCM_dev\v_bcm\XmlFactory\XmlFactory.DK.NET\Tools\ThalesControl\Sources\XmlFactory.Plugin.Biz2DisEODTransform\XMLTools.cs" length="130" fingerprint="D7A1C96EEC5141C04F0B259AEC2DF0C4" />
+  <cloneClass normalizedLength="22" id="54" fingerprint="08982E93C7616C39FAE767B4035CF767">
+    <values />
+    <clone id="55" lineCount="26" fingerprint="08982E93C7616C39FAE767B4035CF767" startLine="2" sourceFileId="11" startUnitIndexInFile="2" lengthInUnits="22" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="56" lineCount="26" fingerprint="08982E93C7616C39FAE767B4035CF767" startLine="0" sourceFileId="16" startUnitIndexInFile="0" lengthInUnits="22" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="38" id="27" fingerprint="1C1A82C6A915F67CE4599E66EA8B27E4">
+    <values />
+    <clone id="29" lineCount="47" fingerprint="1C1A82C6A915F67CE4599E66EA8B27E4" startLine="0" sourceFileId="105" startUnitIndexInFile="0" lengthInUnits="38" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="28" lineCount="48" fingerprint="1C1A82C6A915F67CE4599E66EA8B27E4" startLine="0" sourceFileId="111" startUnitIndexInFile="0" lengthInUnits="38" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="36" id="30" fingerprint="21C8BC72C8B04FC28FB984094FF7226A">
+    <values />
+    <clone id="34" lineCount="43" fingerprint="21C8BC72C8B04FC28FB984094FF7226A" startLine="1" sourceFileId="44" startUnitIndexInFile="1" lengthInUnits="36" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="31" lineCount="49" fingerprint="21C8BC72C8B04FC28FB984094FF7226A" startLine="0" sourceFileId="49" startUnitIndexInFile="0" lengthInUnits="36" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="33" lineCount="47" fingerprint="21C8BC72C8B04FC28FB984094FF7226A" startLine="0" sourceFileId="105" startUnitIndexInFile="0" lengthInUnits="36" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="32" lineCount="48" fingerprint="21C8BC72C8B04FC28FB984094FF7226A" startLine="0" sourceFileId="111" startUnitIndexInFile="0" lengthInUnits="36" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="30" id="51" fingerprint="2D1C450648B340AE682A1FFC9F551BFD">
+    <values />
+    <clone id="52" lineCount="38" fingerprint="2D1C450648B340AE682A1FFC9F551BFD" startLine="0" sourceFileId="44" startUnitIndexInFile="0" lengthInUnits="30" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="53" lineCount="38" fingerprint="2D1C450648B340AE682A1FFC9F551BFD" startLine="2" sourceFileId="48" startUnitIndexInFile="2" lengthInUnits="30" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="28" id="42" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7">
+    <values />
+    <clone id="48" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="1" sourceFileId="44" startUnitIndexInFile="1" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="49" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="3" sourceFileId="48" startUnitIndexInFile="3" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="45" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="0" sourceFileId="49" startUnitIndexInFile="0" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="50" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="0" sourceFileId="51" startUnitIndexInFile="0" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="43" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="0" sourceFileId="61" startUnitIndexInFile="0" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="44" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="0" sourceFileId="95" startUnitIndexInFile="0" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="47" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="0" sourceFileId="105" startUnitIndexInFile="0" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="46" lineCount="35" fingerprint="2D4637116F8C9CB71B34380C8CFD9CE7" startLine="0" sourceFileId="111" startUnitIndexInFile="0" lengthInUnits="28" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="27" id="126" fingerprint="4CB6939FFF43E5FF58CA43CF76D15791">
+    <values />
+    <clone id="127" lineCount="20" fingerprint="4CB6939FFF43E5FF58CA43CF76D15791" startLine="152" sourceFileId="63" startUnitIndexInFile="183" lengthInUnits="27" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="128" lineCount="22" fingerprint="4CB6939FFF43E5FF58CA43CF76D15791" startLine="95" sourceFileId="111" startUnitIndexInFile="99" lengthInUnits="27" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="23" id="0" fingerprint="551BC2FBA9D1B39ED96682EC3124525C">
+    <values />
+    <clone id="2" lineCount="30" fingerprint="551BC2FBA9D1B39ED96682EC3124525C" startLine="0" sourceFileId="34" startUnitIndexInFile="0" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="1" lineCount="30" fingerprint="551BC2FBA9D1B39ED96682EC3124525C" startLine="9" sourceFileId="51" startUnitIndexInFile="9" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="20" id="61" fingerprint="6728D10654D7712BE8CA46888EAD11F3">
+    <values />
+    <clone id="63" lineCount="23" fingerprint="6728D10654D7712BE8CA46888EAD11F3" startLine="1" sourceFileId="14" startUnitIndexInFile="1" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="62" lineCount="23" fingerprint="6728D10654D7712BE8CA46888EAD11F3" startLine="0" sourceFileId="17" startUnitIndexInFile="0" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="30" id="24" fingerprint="6EAB976D7B0A803A586836BD398D951E">
+    <values />
+    <clone id="25" lineCount="38" fingerprint="6EAB976D7B0A803A586836BD398D951E" startLine="0" sourceFileId="61" startUnitIndexInFile="0" lengthInUnits="30" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="26" lineCount="38" fingerprint="6EAB976D7B0A803A586836BD398D951E" startLine="0" sourceFileId="95" startUnitIndexInFile="0" lengthInUnits="30" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="20" id="57" fingerprint="722FCA9AE78F41CA247D474D457D6871">
+    <values />
+    <clone id="58" lineCount="23" fingerprint="722FCA9AE78F41CA247D474D457D6871" startLine="2" sourceFileId="11" startUnitIndexInFile="2" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="60" lineCount="23" fingerprint="722FCA9AE78F41CA247D474D457D6871" startLine="1" sourceFileId="13" startUnitIndexInFile="1" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="59" lineCount="23" fingerprint="722FCA9AE78F41CA247D474D457D6871" startLine="0" sourceFileId="16" startUnitIndexInFile="0" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="23" id="129" fingerprint="851D4BC806E035979B35A666CD32B5D7">
+    <values />
+    <clone id="131" lineCount="16" fingerprint="851D4BC806E035979B35A666CD32B5D7" startLine="152" sourceFileId="63" startUnitIndexInFile="183" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="130" lineCount="17" fingerprint="851D4BC806E035979B35A666CD32B5D7" startLine="62" sourceFileId="111" startUnitIndexInFile="57" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="132" lineCount="17" fingerprint="851D4BC806E035979B35A666CD32B5D7" startLine="95" sourceFileId="111" startUnitIndexInFile="99" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="23" id="116" fingerprint="9180EFA6814A9B873A3006A18FD88BB3">
+    <values />
+    <clone id="118" lineCount="16" fingerprint="9180EFA6814A9B873A3006A18FD88BB3" startLine="156" sourceFileId="63" startUnitIndexInFile="189" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="117" lineCount="18" fingerprint="9180EFA6814A9B873A3006A18FD88BB3" startLine="85" sourceFileId="111" startUnitIndexInFile="87" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="20" id="67" fingerprint="9FC936283485D1FBF33FDFD3EAE32F11">
+    <values />
+    <clone id="69" lineCount="22" fingerprint="9FC936283485D1FBF33FDFD3EAE32F11" startLine="1" sourceFileId="11" startUnitIndexInFile="1" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="68" lineCount="22" fingerprint="9FC936283485D1FBF33FDFD3EAE32F11" startLine="0" sourceFileId="12" startUnitIndexInFile="0" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="70" lineCount="22" fingerprint="9FC936283485D1FBF33FDFD3EAE32F11" startLine="0" sourceFileId="13" startUnitIndexInFile="0" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="71" lineCount="22" fingerprint="9FC936283485D1FBF33FDFD3EAE32F11" startLine="0" sourceFileId="14" startUnitIndexInFile="0" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="29" id="35" fingerprint="A0320A6DD685E307072ED4C22B6A58E7">
+    <values />
+    <clone id="39" lineCount="37" fingerprint="A0320A6DD685E307072ED4C22B6A58E7" startLine="1" sourceFileId="44" startUnitIndexInFile="1" lengthInUnits="29" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="40" lineCount="37" fingerprint="A0320A6DD685E307072ED4C22B6A58E7" startLine="3" sourceFileId="48" startUnitIndexInFile="3" lengthInUnits="29" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="36" lineCount="41" fingerprint="A0320A6DD685E307072ED4C22B6A58E7" startLine="0" sourceFileId="49" startUnitIndexInFile="0" lengthInUnits="29" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="41" lineCount="37" fingerprint="A0320A6DD685E307072ED4C22B6A58E7" startLine="0" sourceFileId="51" startUnitIndexInFile="0" lengthInUnits="29" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="38" lineCount="41" fingerprint="A0320A6DD685E307072ED4C22B6A58E7" startLine="0" sourceFileId="105" startUnitIndexInFile="0" lengthInUnits="29" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="37" lineCount="41" fingerprint="A0320A6DD685E307072ED4C22B6A58E7" startLine="0" sourceFileId="111" startUnitIndexInFile="0" lengthInUnits="29" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="34" id="11" fingerprint="A9D77E7CB2DB3D0020490F322D848D49">
+    <values />
+    <clone id="12" lineCount="64" fingerprint="A9D77E7CB2DB3D0020490F322D848D49" startLine="0" sourceFileId="3" startUnitIndexInFile="0" lengthInUnits="34" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="13" lineCount="64" fingerprint="A9D77E7CB2DB3D0020490F322D848D49" startLine="0" sourceFileId="6" startUnitIndexInFile="0" lengthInUnits="34" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="20" id="3" fingerprint="C70D1322F07CCFE27DE989B1424A82BE">
+    <values />
+    <clone id="10" lineCount="28" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="0" sourceFileId="34" startUnitIndexInFile="0" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="4" lineCount="28" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="10" sourceFileId="44" startUnitIndexInFile="10" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="8" lineCount="28" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="12" sourceFileId="48" startUnitIndexInFile="12" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="7" lineCount="32" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="9" sourceFileId="49" startUnitIndexInFile="9" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="9" lineCount="28" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="9" sourceFileId="51" startUnitIndexInFile="9" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="5" lineCount="32" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="9" sourceFileId="105" startUnitIndexInFile="9" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="6" lineCount="32" fingerprint="C70D1322F07CCFE27DE989B1424A82BE" startLine="9" sourceFileId="111" startUnitIndexInFile="9" lengthInUnits="20" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="23" id="113" fingerprint="CAD7EA669B7D78A8DE94BA9837CA4BF5">
+    <values />
+    <clone id="114" lineCount="17" fingerprint="CAD7EA669B7D78A8DE94BA9837CA4BF5" startLine="147" sourceFileId="63" startUnitIndexInFile="177" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="115" lineCount="17" fingerprint="CAD7EA669B7D78A8DE94BA9837CA4BF5" startLine="44" sourceFileId="111" startUnitIndexInFile="33" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="21" id="105" fingerprint="CCC70226B79E8557D24556AD07FA9F9A">
+    <values />
+    <clone id="106" lineCount="14" fingerprint="CCC70226B79E8557D24556AD07FA9F9A" startLine="154" sourceFileId="63" startUnitIndexInFile="185" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="108" lineCount="14" fingerprint="CCC70226B79E8557D24556AD07FA9F9A" startLine="42" sourceFileId="111" startUnitIndexInFile="29" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="109" lineCount="15" fingerprint="CCC70226B79E8557D24556AD07FA9F9A" startLine="64" sourceFileId="111" startUnitIndexInFile="59" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="107" lineCount="15" fingerprint="CCC70226B79E8557D24556AD07FA9F9A" startLine="97" sourceFileId="111" startUnitIndexInFile="101" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="21" id="64" fingerprint="CFC18F4D7DE06977E67D70ADB6A63129">
+    <values />
+    <clone id="65" lineCount="24" fingerprint="CFC18F4D7DE06977E67D70ADB6A63129" startLine="1" sourceFileId="11" startUnitIndexInFile="1" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="66" lineCount="24" fingerprint="CFC18F4D7DE06977E67D70ADB6A63129" startLine="0" sourceFileId="13" startUnitIndexInFile="0" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="23" id="123" fingerprint="E076FD47910C2CF88E57D2B7C96926C2">
+    <values />
+    <clone id="125" lineCount="16" fingerprint="E076FD47910C2CF88E57D2B7C96926C2" startLine="143" sourceFileId="63" startUnitIndexInFile="171" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="124" lineCount="18" fingerprint="E076FD47910C2CF88E57D2B7C96926C2" startLine="80" sourceFileId="111" startUnitIndexInFile="81" lengthInUnits="23" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="21" id="110" fingerprint="EA6CAE02AA923A272AE7F2D4BE82B027">
+    <values />
+    <clone id="112" lineCount="13" fingerprint="EA6CAE02AA923A272AE7F2D4BE82B027" startLine="42" sourceFileId="105" startUnitIndexInFile="29" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="111" lineCount="16" fingerprint="EA6CAE02AA923A272AE7F2D4BE82B027" startLine="92" sourceFileId="111" startUnitIndexInFile="95" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+  <cloneClass normalizedLength="21" id="14" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC">
+    <values />
+    <clone id="19" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="4" sourceFileId="44" startUnitIndexInFile="4" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="21" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="6" sourceFileId="48" startUnitIndexInFile="6" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="20" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="3" sourceFileId="49" startUnitIndexInFile="3" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="22" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="3" sourceFileId="51" startUnitIndexInFile="3" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="16" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="3" sourceFileId="61" startUnitIndexInFile="3" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="23" lineCount="29" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="0" sourceFileId="63" startUnitIndexInFile="0" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="15" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="3" sourceFileId="95" startUnitIndexInFile="3" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="17" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="3" sourceFileId="105" startUnitIndexInFile="3" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+    <clone id="18" lineCount="28" fingerprint="F8FA7D9B89C9B693D74CE368D967FBBC" startLine="3" sourceFileId="111" startUnitIndexInFile="3" lengthInUnits="21" deltaInUnits="0" gaps="">
+      <values />
+    </clone>
+  </cloneClass>
+</cloneReport>
