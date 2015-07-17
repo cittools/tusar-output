@@ -9,7 +9,7 @@
 
     <groupId>org.jenkins-ci.lib.dtkit</groupId>
     <artifactId>dtkit-default-tusar-parent</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
     <name>DTKit Default TUSAR Parent</name>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/DTKit</url>
@@ -130,7 +130,7 @@
 	<scm>
         <connection>scm:git:git://github.com/cittools/tusar-output.git</connection>
         <developerConnection>scm:git:git@github.com:cittools/tusar-output.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>dtkit-default-tusar-parent-1.0.3</tag>
     </scm>
 
     <build>
