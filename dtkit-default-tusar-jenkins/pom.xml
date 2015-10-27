@@ -33,6 +33,12 @@
             <groupId>org.jenkins-ci.main</groupId>
             <artifactId>jenkins-core</artifactId>
             <scope>provided</scope>
+			<exclusions>
+                <exclusion>
+                    <groupId>org.kohsuke.stapler</groupId>
+                    <artifactId>stapler-adjunct-timeline</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
     </dependencies>

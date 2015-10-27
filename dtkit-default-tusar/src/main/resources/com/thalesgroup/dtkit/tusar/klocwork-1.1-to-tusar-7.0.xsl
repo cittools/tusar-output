@@ -50,6 +50,9 @@
                             <xsl:variable name="state">
                                 <xsl:value-of select="tag:state"/>
                             </xsl:variable>
+                            <xsl:variable name="citingStatus">
+                                <xsl:value-of select="tag:citingStatus"/>
+                            </xsl:variable>
                             <xsl:if test="not($state='Fixed')">
                                 <xsl:element name="violations:violation">
                                     <xsl:attribute name="line">
@@ -69,7 +72,16 @@
                                     </xsl:attribute>
 
                                     <xsl:attribute name="severity">
-                                        <xsl:value-of select="tag:severity"/>
+                                        <!-- Taking into account false positive -->
+                                        
+                                        <xsl:choose>
+                                            <xsl:when test="$citingStatus='Not a problem'">
+                                                <xsl:text>false positive</xsl:text>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="tag:severity"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose> 
                                     </xsl:attribute>
 
                                 </xsl:element>

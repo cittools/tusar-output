@@ -172,7 +172,7 @@
                 <groupId>org.kohsuke.stapler</groupId>
                 <artifactId>maven-stapler-plugin</artifactId>
                 <version>1.7</version>
-                <dependencies>
+                <!--<dependencies>
                     <dependency>
                         <groupId>com.sun</groupId>
                         <artifactId>tools</artifactId>
@@ -181,10 +181,24 @@
                         <systemPath>/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/lib/tools.jar
                         </systemPath>
                     </dependency>
-                </dependencies>
+                </dependencies>-->
             </plugin>
 
         </plugins>
     </build>
+	
+	<repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>
