@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -23,7 +24,7 @@
 
     <developers>
         <developer>
-            <id>gbois</id>
+            <id>gboissinot</id>
             <name>Gregory Boissinot</name>
             <timezone>+1</timezone>
             <roles>
@@ -66,19 +67,19 @@
                 <version>${dtkit.processor.version}</version>
                 <scope>provided</scope>
             </dependency>
-            
+
             <dependency>
                 <groupId>com.thalesgroup.dtkit</groupId>
                 <artifactId>dtkit-tusar-model</artifactId>
                 <version>${dtkit.format.tusar.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.jenkins-ci.lib.dtkit</groupId>
                 <artifactId>dtkit-metrics-hudson-api</artifactId>
                 <version>${dtkit.frmk.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.jenkins-ci.main</groupId>
                 <artifactId>jenkins-core</artifactId>
@@ -88,7 +89,7 @@
 
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
 
         <dependency>
@@ -126,8 +127,8 @@
         </dependency>
 
     </dependencies>
-	
-	<scm>
+
+    <scm>
         <connection>scm:git:git://github.com/cittools/tusar-output.git</connection>
         <developerConnection>scm:git:git@github.com:cittools/tusar-output.git</developerConnection>
         <tag>HEAD</tag>
@@ -141,7 +142,7 @@
                 <version>${dtkit.plugins.version}</version>
                 <extensions>true</extensions>
             </plugin>
-            
+
             <!-- Note: no effect for the first compilation time -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -167,27 +168,10 @@
                     </execution>
                 </executions>
             </plugin>
-
-            <plugin>
-                <groupId>org.kohsuke.stapler</groupId>
-                <artifactId>maven-stapler-plugin</artifactId>
-                <version>1.7</version>
-                <!--<dependencies>
-                    <dependency>
-                        <groupId>com.sun</groupId>
-                        <artifactId>tools</artifactId>
-                        <version>1.7</version>
-                        <scope>system</scope>
-                        <systemPath>/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/lib/tools.jar
-                        </systemPath>
-                    </dependency>
-                </dependencies>-->
-            </plugin>
-
         </plugins>
     </build>
-	
-	<repositories>
+
+    <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
